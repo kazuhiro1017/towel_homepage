@@ -1,0 +1,127 @@
+#service {
+  background-image: url(../images/news-bg.jpg);
+  height: 270px;
+  margin-bottom: 40px;
+}
+#service .page-title {
+  text-align: center;
+  padding-top: 20px;
+}
+.service-contents{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+  height: 1700px;
+  .service-request{
+    margin: 90px 0;
+    margin-bottom: 130px;
+    .request{
+      font-size: 23px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    ul{
+      display: flex;
+      margin: 0 250px;
+      justify-content: space-between;
+      li{
+        font-size: 27px;
+      }
+    }
+  }
+  article{
+    width: 100%;
+    text-align: center;
+    min-width: 120px;
+    float: left;
+    margin-bottom: 70px;
+    img{
+      float: left;
+      max-width: 305px;
+      margin-right: 20px;
+    }
+    h3{
+      border-left: 5px solid #000;
+      margin-bottom: 10px;
+      padding-left: 10px;
+      text-align: left;
+      float: left;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    p{
+      line-height: 3.0em;
+      border: 1px solid #CCC;
+      float: left;
+      width: 70%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+/* モバイル版
+------------------------------- */
+@media (max-width: 1024px) {
+  .service-contents .service-request ul {
+    margin: 0 200px;
+  }
+  .service-contents article p {
+    width: 65.2%;
+  }
+}
+
+@media (max-width: 800px) {
+  .service-contents .service-request ul {
+    margin: 0 100px;
+  }
+  .service-contents article p {
+    width: 53%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  #service {
+    height: 325px;
+  }
+  .service-contents {
+    height: 2460px;
+  }
+  .service-contents .service-request .request {
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .service-contents .service-request ul {
+    margin: 0 17px;
+    display: block;
+  }
+  .service-contents .service-request ul li {
+    font-size: 24px;
+    margin: 0 75px;
+  }
+  .service-contents article img {
+    float: none;
+    max-width: 320px;
+    margin-right: 0px;
+  }
+  .service-contents article p {
+    width: 98.5%;
+  }
+}
+
+@media (max-width: 400px) {
+  .service-contents {
+    height: 2620px;
+  }
+  .service-contents .service-request ul li {
+    font-size: 21px;
+    margin: 0 75px;
+  }
+}

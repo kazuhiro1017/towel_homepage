@@ -1,0 +1,96 @@
+#about{
+  padding: 30.5px 0 126.5px;
+  color: #3333f0;
+  width: 980px;
+  font-family: ヒラギノ角ゴ ProN W3,Hiragino Kaku Gothic ProN,メイリオ,Meiryo,sans-serif;
+  h2{
+    text-align: center;
+    margin-bottom: 40px;
+    p{
+      width: 100%;
+      height: auto;
+      font-size: 33px;
+      font-weight: bold;
+      letter-spacing: .3em;
+    }
+    em{
+      display: block;
+      margin-top: -5px;
+      font-weight: 600;
+      letter-spacing: .05em;
+      font-size: 1.2rem;
+    }
+  }
+  table{
+    width: 100%;
+    color: #3333f0;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 2.55557;
+    tr:nth-child(odd) {
+      background: rgba(0,0,255,.1);
+    }
+    tr{
+      th{
+        width: 5.1em;
+        padding: 6px 5.5em;
+        vertical-align: top;
+      }
+      td{
+        padding: 6px 2.8em;
+        span{
+          margin: 0 2px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media (max-width: 1024px) {
+  #about{
+    padding: 90.5px 0 226.5px;
+  }
+}
+@media (max-width: 800px) {
+  #about{
+    width: 736px;
+    table tr th {
+      padding: 6px 2.5em;
+    }
+  }
+}
+@media (max-width: 600px) {
+  #about{
+    width: 380px;
+    h2{
+      p{
+        font-size: 27px;
+      }
+      em{
+        font-size: 1.15rem;
+      }
+    }
+    table tr th {
+      padding: 6px 1.4em;
+      font-size: 0.67rem;
+    }
+    table tr td {
+      font-size: 0.67rem;
+    }
+  }
+}
+@media (max-width: 400px) {
+  #about{
+    width: 350px;
+    table tr th {
+      padding: 6px 1.9em;
+      font-size: 0.6rem;
+    }
+    table tr td {
+      font-size: 0.6rem;
+    }
+  }
+}

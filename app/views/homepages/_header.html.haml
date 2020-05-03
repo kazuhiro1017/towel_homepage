@@ -1,0 +1,21 @@
+%header.page-header.wrapper
+  %h1
+    =link_to root_path, data: {"turbolinks" => false} do
+      %h1.home-logo 岡本産業 TOWEL
+  %nav 
+    %ul.main-nav 
+      %li 
+        =link_to service_homepages_path do
+          Service 
+      %li 
+        =link_to item_homepages_path, data: {"turbolinks" => false} do
+          Item 
+      %li 
+        =link_to about_homepages_path do
+          About
+      %li 
+        =link_to access_homepages_path, data: {"turbolinks" => false} do
+          Access
+      %li 
+        =link_to recruit_homepages_path do
+          Recruit

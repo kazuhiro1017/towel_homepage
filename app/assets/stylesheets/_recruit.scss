@@ -1,0 +1,132 @@
+#recruit{
+  width: 1050px;
+  table{
+    background: rgb(246,246,246);
+    border: 1px solid #eee;
+    width: 100%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 10px;
+    margin: 140px 0 202px;
+    text-align: left;
+    font-size: 20px;
+    thead {
+      display: table-header-group;
+      vertical-align: middle;
+      border-color: inherit;
+      tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+        .orange{
+          color: rgb(230,140,31);
+          font-size: 30px;
+          text-align: center;
+        }
+        th{
+          color: #333;
+          padding-bottom: 15px;
+          border-bottom: 1px dotted #ccc;
+          display: table-cell;
+          vertical-align: inherit;
+          font-weight: bold;
+          font-size: 22px;
+          padding: 17px 30px;
+        }
+      }
+    }
+    tbody {
+      display: table-row-group;
+      vertical-align: middle;
+      border-color: inherit;
+      tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+        th{
+          color: rgb(142,130,113);
+          padding: 15px 95px;
+          border-bottom: 1px dotted #ccc;
+          display: table-cell;
+          vertical-align: inherit;
+          font-weight: bold;
+          text-align: center;
+          font-size: 18px;
+        }
+        td{
+          padding: 15px 0;
+          border-bottom: 1px dotted #ccc;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media (max-width: 1024px) {
+  #recruit {
+    width: 942px;
+    table {
+      margin: 185px 0 322px;
+    }
+  }
+}
+@media (max-width: 800px) {
+  #recruit {
+    width: 707px;
+    table {
+      margin: 100px 0 130px;
+      thead tr th {
+        padding: 17px 32px;
+      }
+      tbody tr th {
+        padding: 15px 53px;
+      }
+      tbody tr td{
+        padding: 15px 30px;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  #recruit {
+    width: 381px;
+    table {
+      margin: 70px 0 80px;
+    }
+    table thead tr {
+      .orange{
+        font-size: 26px;
+      }
+      th{
+      padding: 17px 18px;
+      font-size: 18px;
+      }
+    }
+    table tbody tr th {
+      padding: 15px 10px;
+    }
+    table tbody tr td {
+      padding: 15px 1px;
+    }
+    table tbody tr th {
+      font-size: 15px;
+    }
+    table tbody tr td {
+      font-size: 15px;
+    }
+  }
+}
+@media (max-width: 400px){
+  #recruit {
+    width: 345px;
+    table thead tr th {
+      padding: 17px 15px;
+      font-size: 18px;
+    }
+  }
+}

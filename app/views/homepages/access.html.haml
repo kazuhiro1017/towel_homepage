@@ -1,0 +1,27 @@
+= javascript_include_tag 'access'
+
+#service.big-dg 
+  = render "header"
+  .wrapper 
+    %h2.page-title Access
+
+#location
+  .wrapper 
+    .location-info 
+      %h3.sub-title 岡本産業株式会社
+      .detail
+        %p 住所： 愛媛県今治市朝倉北甲97-1
+        %p 電話： 0898-56-2161
+        %p 営業時間： 9:00〜18:00
+        %p 休日：日曜日
+    .location-map
+      %iframe{src: "https://www.google.com/maps/d/embed?mid=1weNlQijv7UI2t0hlEs8dKQzQNd8cjDaY", width: "1000", height: "400"}
+
+#location-picture 
+  .wrapper 
+    .single
+      %img.slick-slide{src: "../images/main-bg.jpg", alt: "house1"}
+      %img.slick-slide{src: "../images/menu-bg.jpg", alt: "house2"}
+      %img.slick-slide{src: "../images/contact-bg.jpg", alt: "house3"}
+
+= render "footer"
