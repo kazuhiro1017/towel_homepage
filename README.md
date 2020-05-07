@@ -23,7 +23,7 @@ Things you may want to cover:
 
 * Description
 
-  This is towel company's website that was written in haml, scss and jQuery. This website has mainly six pages that are toppage, service, item, about, access and recruit. I just finished to create website form, so I and compapy will update soon website more simple to use and comfortable. For instance, web-shop that is able to use credit cards and ... crypto currency haha. Thank you so much for reading. Have a good day.
+  This is towel company's website that was written in haml, scss and jQuery. This website has mainly six pages that are toppage, service, item, about, access and recruit. I just finished to create website form, so I and company will update soon website more simple to use and comfortable. For instance, web-shop that is able to use credit cards and ... crypto currency haha. Thank you so much for reading. Have a good day.
 
 * Author
 
