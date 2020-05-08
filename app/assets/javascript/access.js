@@ -1,4 +1,4 @@
-$(document).on('turbolinks:load', function(){
+$(function(){
   $('.single').slick({
     autoplay: true, 
     arrows: false,
